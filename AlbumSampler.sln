@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumSampler", "AlbumSampler\AlbumSampler.csproj", "{7CFEFB52-E63D-47C7-AEAB-95FFC0DBA42E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{739D2EB4-24D4-45B3-809E-2B571DE734AE}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{0C4AB225-BF8B-49D8-B11C-734E300115D0}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\AlbumSampler-WAWS-dev.json = PublishScripts\Configurations\AlbumSampler-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CFEFB52-E63D-47C7-AEAB-95FFC0DBA42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFEFB52-E63D-47C7-AEAB-95FFC0DBA42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFEFB52-E63D-47C7-AEAB-95FFC0DBA42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFEFB52-E63D-47C7-AEAB-95FFC0DBA42E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C4AB225-BF8B-49D8-B11C-734E300115D0} = {739D2EB4-24D4-45B3-809E-2B571DE734AE}
+	EndGlobalSection
+EndGlobal
